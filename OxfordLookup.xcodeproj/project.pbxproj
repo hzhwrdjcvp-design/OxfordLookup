@@ -71,6 +71,11 @@
 			path = OxfordLookup;
 			sourceTree = "<group>";
 		};
+		6C0801F53002D7AA0082F218 /* OxfordLookupShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OxfordLookupShared;
+			sourceTree = "<group>";
+		};
 		6C0801C73002C6750082F218 /* OxfordLookupTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = OxfordLookupTests;
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6C0801B93002C6740082F218 /* OxfordLookup */,
+				6C0801F53002D7AA0082F218 /* OxfordLookupShared */,
 				6C0801C73002C6750082F218 /* OxfordLookupTests */,
 				6C0801D13002C6750082F218 /* OxfordLookupUITests */,
 				6C0801E63002D0D30082F218 /* OxFordLookupShare */,
@@ -164,6 +170,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6C0801B93002C6740082F218 /* OxfordLookup */,
+				6C0801F53002D7AA0082F218 /* OxfordLookupShared */,
 			);
 			name = OxfordLookup;
 			packageProductDependencies = (
@@ -187,6 +194,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6C0801C73002C6750082F218 /* OxfordLookupTests */,
+				6C0801F53002D7AA0082F218 /* OxfordLookupShared */,
 			);
 			name = OxfordLookupTests;
 			packageProductDependencies = (
@@ -232,6 +240,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6C0801E63002D0D30082F218 /* OxFordLookupShare */,
+				6C0801F53002D7AA0082F218 /* OxfordLookupShared */,
 			);
 			name = OxFordLookupShare;
 			packageProductDependencies = (
