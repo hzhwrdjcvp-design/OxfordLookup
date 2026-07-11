@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6C0801EF3002D0D40082F218 /* OxFordLookupShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6C0801E53002D0D30082F218 /* OxFordLookupShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C0801F63002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0801F93002E0000082F218 /* OxfordLookupURLBuilder.swift */; };
+		6C0801F73002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0801F93002E0000082F218 /* OxfordLookupURLBuilder.swift */; };
+		6C0801F83002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0801F93002E0000082F218 /* OxfordLookupURLBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		6C0801C43002C6750082F218 /* OxfordLookupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OxfordLookupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0801CE3002C6750082F218 /* OxfordLookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OxfordLookupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0801E53002D0D30082F218 /* OxFordLookupShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OxFordLookupShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0801F93002E0000082F218 /* OxfordLookupURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxfordLookupURLBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -128,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C0801F53002D7AA0082F218 /* OxfordLookupShared */ = {
+			isa = PBXGroup;
+			children = (
+				6C0801F93002E0000082F218 /* OxfordLookupURLBuilder.swift */,
+			);
+			path = OxfordLookupShared;
+			sourceTree = "<group>";
+		};
 		6C0801AE3002C6740082F218 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0801F63002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0801F73002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0801F83002E0000082F218 /* OxfordLookupURLBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
